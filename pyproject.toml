@@ -4,4 +4,6 @@ version = "0.1.0"
 description = "Package to sync pandas DataFrame to Blender mesh"
 readme = "README.md"
 requires-python = ">=3.11,<3.12"
-dependencies = []
+dependencies = [
+    "pandas>=2.2.3",
+]
